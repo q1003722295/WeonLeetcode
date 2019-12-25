@@ -61,7 +61,7 @@ class Solution(object):
                 nums[i] = nums[j]
                 j += 1
 
-        return nums[0:i+1]
+        return i+1
 
 s = Solution()
 print(s.removeDuplicates([]))
