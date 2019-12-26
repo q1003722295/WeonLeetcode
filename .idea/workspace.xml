@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="">
+    <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="新增第26题">
+      <change afterPath="$PROJECT_DIR$/_27-RemoveElement/RemoveElement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_27-RemoveElement/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +17,7 @@
     <SUITE FILE_PATH="coverage/LeetcodeTest$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1575258820216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber3.coverage" NAME="PalindromeNumber3 Coverage Results" MODIFIED="1575779704451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestCommonPrefix.coverage" NAME="LongestCommonPrefix Coverage Results" MODIFIED="1576213808873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_14-LongestCommonPrefix" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveElement.coverage" NAME="RemoveElement Coverage Results" MODIFIED="1577334792158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_27-RemoveElement" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ReverseInteger2.coverage" NAME="ReverseInteger2 Coverage Results" MODIFIED="1575649610091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7-ReverseInteger" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$GenerateParentheses.coverage" NAME="GenerateParentheses Coverage Results" MODIFIED="1576907318027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_22-GenerateParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber1.coverage" NAME="PalindromeNumber1 Coverage Results" MODIFIED="1575779714923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
@@ -52,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="437">
+              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -64,17 +68,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_25-ReverseNodesink-Group/ReverseNodesink-Group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="330">
               <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="341">
+              <caret line="64" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_27-RemoveElement/RemoveElement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -82,26 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="465">
               <caret line="31" column="15" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_18-FourSum/FourSum3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="92" column="18" selection-start-line="87" selection-start-column="4" selection-end-line="92" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_23-MergekSortedLists/MergekSortedLists2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -169,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_6-ZigZagConversion/ZigZagConversion1.py" />
         <option value="$PROJECT_DIR$/_7-ReverseInteger/ReverseInteger.py" />
         <option value="$PROJECT_DIR$/_7-ReverseInteger/ReverseInteger1.py" />
         <option value="$PROJECT_DIR$/_7-ReverseInteger/ReverseInteger2.py" />
@@ -218,8 +212,9 @@
         <option value="$PROJECT_DIR$/_24-SwapNodesinPairs/SwapNodesinPairs.py" />
         <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/_25-ReverseNodesink-Group/ReverseNodesink-Group.py" />
-        <option value="$PROJECT_DIR$/Solution.txt" />
         <option value="$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.py" />
+        <option value="$PROJECT_DIR$/_27-RemoveElement/RemoveElement.py" />
+        <option value="$PROJECT_DIR$/Solution.txt" />
       </list>
     </option>
   </component>
@@ -234,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,12 +240,12 @@
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_25-ReverseNodesink-Group" type="462c0819:PsiDirectoryNode" />
+              <item name="_26-RemoveDuplicatesfromSortedArray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_26-RemoveDuplicatesfromSortedArray" type="462c0819:PsiDirectoryNode" />
+              <item name="_27-RemoveElement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +255,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,29 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RemoveDuplicatesfromSortedArray">
-    <configuration name="GenerateParentheses2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetcodeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_22-GenerateParentheses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_22-GenerateParentheses/GenerateParentheses2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.RemoveElement">
     <configuration name="MergekSortedLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -348,6 +321,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveElement" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetcodeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_27-RemoveElement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_27-RemoveElement/RemoveElement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RemoveElement" />
         <item itemvalue="Python.RemoveDuplicatesfromSortedArray" />
         <item itemvalue="Python.ReverseNodesink-Group" />
         <item itemvalue="Python.SwapNodesinPairs" />
         <item itemvalue="Python.MergekSortedLists" />
-        <item itemvalue="Python.GenerateParentheses2" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +447,8 @@
       <workItem from="1577022352585" duration="3754000" />
       <workItem from="1577077475593" duration="2221000" />
       <workItem from="1577152578554" duration="3925000" />
-      <workItem from="1577277126314" duration="3313000" />
+      <workItem from="1577277126314" duration="6354000" />
+      <workItem from="1577334103769" duration="863000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -489,21 +485,36 @@
       <option name="project" value="LOCAL" />
       <updated>1577279526192</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增第26题">
+      <created>1577280531929</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577280531929</updated>
+    </task>
+    <task id="LOCAL-00007" summary="新增第26题">
+      <created>1577286465538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577286465538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119188000" />
+    <option name="totallyTimeSpent" value="123092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.19384836" />
+      <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.19098713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24581006" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24581006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,7 +523,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32960895" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -531,23 +542,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="新增第26题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/思路.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_11-ContainerWithMostWater/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_11-ContainerWithMostWater/ContainerWithMostWater.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -828,6 +822,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/n" />
+    <entry file="file://$PROJECT_DIR$/n.pub" />
+    <entry file="file://$PROJECT_DIR$/_25-ReverseNodesink-Group/ReverseNodesink-Group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="15" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_22-GenerateParentheses/GenerateParentheses1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -856,31 +866,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_25-ReverseNodesink-Group/ReverseNodesink-Group.py">
+    <entry file="file://$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="341">
+          <caret line="64" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
+    <entry file="file://$PROJECT_DIR$/_27-RemoveElement/RemoveElement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="15" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="348">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="437">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
         </state>
       </provider>
     </entry>
