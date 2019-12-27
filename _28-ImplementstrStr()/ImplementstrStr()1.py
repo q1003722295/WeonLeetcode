@@ -22,7 +22,7 @@
 '''
 暴力算法
 很简单 时间复杂度为O（mn）
-最牛逼的是KMP算法 见2
+最牛逼的是KMP算法 见2啊！
 '''
 
 class Solution(object):
