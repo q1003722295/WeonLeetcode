@@ -53,4 +53,4 @@ class Solution:
                 h = pnext[h]
         if h == m:
             return j - h
-        return -1   
+        return -1
