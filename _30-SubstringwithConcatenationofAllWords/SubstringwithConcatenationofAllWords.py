@@ -30,6 +30,8 @@
 我们一直在 s 维护着所有单词长度总和的一个长度队列！
 时间复杂度：O(n)
 还可以再优化，只是加一些判断，详细看代码吧！
+
+太厉害了这个滑动窗口！先滑 后剪枝
 '''
 class Solution:
     def findSubstring(self,s, words):
