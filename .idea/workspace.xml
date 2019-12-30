@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_30-SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_30-SubstringwithConcatenationofAllWords/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -77,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_30-SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="576">
+              <caret line="66" lean-forward="true" selection-start-line="33" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -217,8 +214,8 @@
         <option value="$PROJECT_DIR$/_29-DivideTwoIntegers/DivideTwoIntegers1.py" />
         <option value="$PROJECT_DIR$/_29-DivideTwoIntegers/DivideTwoIntegers2.py" />
         <option value="$PROJECT_DIR$/_29-DivideTwoIntegers/DivideTwoIntegers3.py" />
-        <option value="$PROJECT_DIR$/Solution.txt" />
         <option value="$PROJECT_DIR$/_30-SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.py" />
+        <option value="$PROJECT_DIR$/Solution.txt" />
       </list>
     </option>
   </component>
@@ -485,7 +482,7 @@
       <workItem from="1577334103769" duration="1077000" />
       <workItem from="1577427359731" duration="8262000" />
       <workItem from="1577531223200" duration="5308000" />
-      <workItem from="1577672008533" duration="3987000" />
+      <workItem from="1577672008533" duration="4213000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -606,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577614316568</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="新增第29题">
+      <created>1577677649719</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1577677649719</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140863000" />
+    <option name="totallyTimeSpent" value="141089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -960,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Solution.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/run.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -982,8 +979,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_30-SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="576">
+          <caret line="66" lean-forward="true" selection-start-line="33" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solution.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
