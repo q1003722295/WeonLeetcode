@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_31-NextPermutation/NextPermutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_31-NextPermutation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32-LongestValidParentheses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32-LongestValidParentheses/题解2、3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestValidParentheses2.coverage" NAME="LongestValidParentheses2 Coverage Results" MODIFIED="1577898251666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_32-LongestValidParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1575258820216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber3.coverage" NAME="PalindromeNumber3 Coverage Results" MODIFIED="1575779704451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestCommonPrefix.coverage" NAME="LongestCommonPrefix Coverage Results" MODIFIED="1576213808873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_14-LongestCommonPrefix" />
@@ -30,6 +33,7 @@
     <SUITE FILE_PATH="coverage/LeetcodeTest$ReverseInteger.coverage" NAME="ReverseInteger Coverage Results" MODIFIED="1575649542967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7-ReverseInteger" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$TreeSum2.coverage" NAME="TreeSum2 Coverage Results" MODIFIED="1576421286751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_15-TreeSum" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveDuplicatesfromSortedArray.coverage" NAME="RemoveDuplicatesfromSortedArray Coverage Results" MODIFIED="1577279082141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestValidParentheses.coverage" NAME="LongestValidParentheses Coverage Results" MODIFIED="1577898256470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_32-LongestValidParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ZigZagConversion2.coverage" NAME="ZigZagConversion2 Coverage Results" MODIFIED="1575646634035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_6-ZigZagConversion" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestPalindromicSubstring.coverage" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1575447349308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5-LongestPalindromicSubstring" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ContainerWithMostWater2.coverage" NAME="ContainerWithMostWater2 Coverage Results" MODIFIED="1575948707685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_11-ContainerWithMostWater" />
@@ -59,63 +63,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="332">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_31-NextPermutation/NextPermutation.py">
+        <entry file="file://$PROJECT_DIR$/_20-ValidParentheses/ValidParentheses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="486">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_30-SubstringwithConcatenationofAllWords/__init__.py">
+        <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="600">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_4-MedianOfTwoSortedArrays/MedianOfTwoSortedArrays1.py">
+        <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_4-MedianOfTwoSortedArrays/MedianOfTwoSortedArrays2.py">
+        <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="325">
+              <caret line="66" selection-start-line="70" selection-end-line="71" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
+        <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state>
+              <caret lean-forward="true" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/run.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-200">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -136,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/_29-DivideTwoIntegers/DivideTwoIntegers3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -168,10 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py" />
-        <option value="$PROJECT_DIR$/_11-ContainerWithMostWater.py" />
-        <option value="$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching2.py" />
-        <option value="$PROJECT_DIR$/_11-ContainerWithMostWater/ContainerWithMostWater2.py" />
         <option value="$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring2.py" />
         <option value="$PROJECT_DIR$/_11-ContainerWithMostWater/__init__.py" />
         <option value="$PROJECT_DIR$/_11-ContainerWithMostWater/ContainerWithMostWater.py" />
@@ -219,13 +223,16 @@
         <option value="$PROJECT_DIR$/_30-SubstringwithConcatenationofAllWords/__init__.py" />
         <option value="$PROJECT_DIR$/_31-NextPermutation/NextPermutation.py" />
         <option value="$PROJECT_DIR$/Solution.txt" />
+        <option value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses.py" />
+        <option value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses1.py" />
+        <option value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses2.py" />
+        <option value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses3.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-111" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1440" />
     <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -255,7 +262,17 @@
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_5-LongestPalindromicSubstring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="_8-StringtoInteger (atoi)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_20-ValidParentheses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
@@ -286,6 +303,11 @@
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="_31-NextPermutation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_32-LongestValidParentheses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
@@ -324,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DivideTwoIntegers">
+  <component name="RunManager" selected="Python.LongestValidParentheses">
     <configuration name="DivideTwoIntegers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -391,7 +413,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesfromSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LongestValidParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,12 +421,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_32-LongestValidParentheses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,7 +435,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RemoveElement" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LongestValidParentheses2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,12 +443,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_27-RemoveElement" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_32-LongestValidParentheses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_27-RemoveElement/RemoveElement.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,11 +459,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LongestValidParentheses" />
+        <item itemvalue="Python.LongestValidParentheses2" />
         <item itemvalue="Python.DivideTwoIntegers" />
         <item itemvalue="Python.ImplementstrStr()2" />
         <item itemvalue="Python.ImplementstrStr()" />
-        <item itemvalue="Python.RemoveElement" />
-        <item itemvalue="Python.RemoveDuplicatesfromSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +514,8 @@
       <workItem from="1577427359731" duration="8262000" />
       <workItem from="1577531223200" duration="5308000" />
       <workItem from="1577672008533" duration="4865000" />
-      <workItem from="1577758764072" duration="4159000" />
+      <workItem from="1577758764072" duration="4611000" />
+      <workItem from="1577891944698" duration="5695000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -634,22 +657,29 @@
       <option name="project" value="LOCAL" />
       <updated>1577677822149</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="新增第31题">
+      <created>1577765274709</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1577765274709</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145900000" />
+    <option name="totallyTimeSpent" value="152047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.20529328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2081545" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.19098713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24581006" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24581006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,30 +709,10 @@
     <MESSAGE value="新增第28题" />
     <MESSAGE value="新增第29题" />
     <MESSAGE value="新增第30题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增第30题" />
+    <MESSAGE value="新增第31题" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增第31题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_9-PalindromeNumber/PalindromeNumber2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_9-PalindromeNumber/PalindromeNumber3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_1-TwoSum/TwoSum1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_14-LongestCommonPrefix/LongestCommonPrefix1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -752,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_17-LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -784,13 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -926,13 +922,6 @@
     <entry file="file://$PROJECT_DIR$/_29-DivideTwoIntegers/Divide3解题.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_20-ValidParentheses/ValidParentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_19-RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -951,6 +940,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_31-NextPermutation/NextPermutation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -978,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -998,21 +994,56 @@
     <entry file="file://$PROJECT_DIR$/_29-DivideTwoIntegers/DivideTwoIntegers3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_31-NextPermutation/NextPermutation.py">
+    <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="600">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="332">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_20-ValidParentheses/ValidParentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="66" selection-start-line="70" selection-end-line="71" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
