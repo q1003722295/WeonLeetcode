@@ -61,3 +61,5 @@ class Solution2:
                     res=max(res,i-stack[-1])
         return res
 
+
+

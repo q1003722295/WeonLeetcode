@@ -54,3 +54,4 @@ class Solution:
 
 s = Solution()
 print(s.longestValidParentheses('(()((()((()()()()((((()()()()))))'))
+
