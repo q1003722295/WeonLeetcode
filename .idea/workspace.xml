@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="新增第33题">
-      <change afterPath="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/__init__.py" afterDir="false" />
+    <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="新增第34题">
+      <change afterPath="$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35-SearchInsertPosition/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="585">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -75,26 +77,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="149">
+              <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_5-LongestPalindromicSubstring/LongestPalindromicSubstring2.py">
+        <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="538">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses1.py">
+        <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="186">
+              <caret line="36" selection-start-line="27" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -120,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="52" column="65" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="52" selection-end-column="65" />
+            <state relative-caret-position="780">
+              <caret line="52" column="65" selection-start-line="42" selection-start-column="7" selection-end-line="52" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -176,12 +178,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_12-IntegertoRoman/IntegertoRoman.py" />
-        <option value="$PROJECT_DIR$/_12-IntegertoRoman/__init__.py" />
         <option value="$PROJECT_DIR$/_13-RomantoInteger/RomantoInteger.py" />
         <option value="$PROJECT_DIR$/_13-RomantoInteger/RomantoInteger1.py" />
         <option value="$PROJECT_DIR$/_13-RomantoInteger/RomantoInteger2.py" />
@@ -230,6 +233,8 @@
         <option value="$PROJECT_DIR$/_32-LongestValidParentheses/__init__.py" />
         <option value="$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py" />
         <option value="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py" />
+        <option value="$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py" />
+        <option value="$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py" />
         <option value="$PROJECT_DIR$/Solution.txt" />
       </list>
     </option>
@@ -321,6 +326,11 @@
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="_34-FindFirstandLastPositionofElementinSortedArray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_35-SearchInsertPosition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
@@ -531,7 +541,8 @@
       <workItem from="1577758764072" duration="4611000" />
       <workItem from="1577891944698" duration="5910000" />
       <workItem from="1577960998833" duration="2986000" />
-      <workItem from="1578016517102" duration="1294000" />
+      <workItem from="1578016517102" duration="1825000" />
+      <workItem from="1578149062743" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -701,22 +712,29 @@
       <option name="project" value="LOCAL" />
       <updated>1577963711401</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="新增第34题">
+      <created>1578017868919</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1578017868919</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156542000" />
+    <option name="totallyTimeSpent" value="159872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.21387696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2167382" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.19098713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.24581006" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.24581006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,8 +742,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.24581006" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.37290502" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785408" weight="0.37290502" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -749,23 +767,10 @@
     <MESSAGE value="新增第31题" />
     <MESSAGE value="新增第32题" />
     <MESSAGE value="新增第33题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增第33题" />
+    <MESSAGE value="新增第34题" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增第34题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_18-FourSum/FourSum2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_14-LongestCommonPrefix/LongestCommonPrefix2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_15-TreeSum/TreeSum1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1044,6 +1049,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="65" selection-start-line="42" selection-start-column="7" selection-end-line="52" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -1065,24 +1077,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py">
+    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="52" column="65" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="52" selection-end-column="65" />
+        <state relative-caret-position="538">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="149">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="36" selection-start-line="27" selection-end-line="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        <state relative-caret-position="585">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
         </state>
       </provider>
     </entry>
