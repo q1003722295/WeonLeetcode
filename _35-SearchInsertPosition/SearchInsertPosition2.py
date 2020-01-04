@@ -59,4 +59,4 @@ class Solution(object):
             return restemp
 
         else:
-            return restemp + 1
+            return restemp +  1
