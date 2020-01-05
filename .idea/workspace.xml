@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/图一.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/题解2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/题解3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,113 +21,111 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestValidParentheses2.coverage" NAME="LongestValidParentheses2 Coverage Results" MODIFIED="1577898251666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_32-LongestValidParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1575258820216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber3.coverage" NAME="PalindromeNumber3 Coverage Results" MODIFIED="1575779704451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestCommonPrefix.coverage" NAME="LongestCommonPrefix Coverage Results" MODIFIED="1576213808873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_14-LongestCommonPrefix" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveElement.coverage" NAME="RemoveElement Coverage Results" MODIFIED="1577334792158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_27-RemoveElement" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$FindFirstandLastPositionofElementinSortedArray2.coverage" NAME="FindFirstandLastPositionofElementinSortedArray2 Coverage Results" MODIFIED="1578152994381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ReverseInteger2.coverage" NAME="ReverseInteger2 Coverage Results" MODIFIED="1575649610091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7-ReverseInteger" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$GenerateParentheses.coverage" NAME="GenerateParentheses Coverage Results" MODIFIED="1576907318027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_22-GenerateParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ImplementstrStr__2.coverage" NAME="ImplementstrStr()2 Coverage Results" MODIFIED="1577440990369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_28-ImplementstrStr()" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber1.coverage" NAME="PalindromeNumber1 Coverage Results" MODIFIED="1575779714923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$RomantoInteger.coverage" NAME="RomantoInteger Coverage Results" MODIFIED="1576136926191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_13-RomantoInteger" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestCommonPrefix2.coverage" NAME="LongestCommonPrefix2 Coverage Results" MODIFIED="1576215005127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_14-LongestCommonPrefix" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ImplementstrStr__.coverage" NAME="ImplementstrStr() Coverage Results" MODIFIED="1577428180158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_28-ImplementstrStr()" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1575206784889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2-AddTwoNumbers" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$ValidSudoku.coverage" NAME="ValidSudoku Coverage Results" MODIFIED="1578210048984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_36-ValidSudoku" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$SwapNodesinPairs.coverage" NAME="SwapNodesinPairs Coverage Results" MODIFIED="1577079060210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_24-SwapNodesinPairs" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$ReverseInteger.coverage" NAME="ReverseInteger Coverage Results" MODIFIED="1575649542967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7-ReverseInteger" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$TreeSum2.coverage" NAME="TreeSum2 Coverage Results" MODIFIED="1576421286751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_15-TreeSum" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveDuplicatesfromSortedArray.coverage" NAME="RemoveDuplicatesfromSortedArray Coverage Results" MODIFIED="1577279082141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestValidParentheses.coverage" NAME="LongestValidParentheses Coverage Results" MODIFIED="1577898256470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_32-LongestValidParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ZigZagConversion2.coverage" NAME="ZigZagConversion2 Coverage Results" MODIFIED="1575646634035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_6-ZigZagConversion" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestPalindromicSubstring.coverage" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1575447349308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5-LongestPalindromicSubstring" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$ContainerWithMostWater2.coverage" NAME="ContainerWithMostWater2 Coverage Results" MODIFIED="1575948707685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_11-ContainerWithMostWater" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$StringtoInteger__atoi_.coverage" NAME="StringtoInteger (atoi) Coverage Results" MODIFIED="1575739788747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_8-StringtoInteger (atoi)" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber2.coverage" NAME="PalindromeNumber2 Coverage Results" MODIFIED="1575779709712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LetterCombinationsofaPhoneNumber.coverage" NAME="LetterCombinationsofaPhoneNumber Coverage Results" MODIFIED="1576465956162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_17-LetterCombinationsofaPhoneNumber" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$FourSum2.coverage" NAME="FourSum2 Coverage Results" MODIFIED="1576554178389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_18-FourSum" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$ValidParentheses.coverage" NAME="ValidParentheses Coverage Results" MODIFIED="1576725931450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_20-ValidParentheses" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$GenerateParentheses2.coverage" NAME="GenerateParentheses2 Coverage Results" MODIFIED="1576907435013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_22-GenerateParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ZigZagConversion.coverage" NAME="ZigZagConversion Coverage Results" MODIFIED="1575533266140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_6-ZigZagConversion" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$_10_RegularExpressionMatching.coverage" NAME="_10-RegularExpressionMatching Coverage Results" MODIFIED="1575862324556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$IntegertoRoman.coverage" NAME="IntegertoRoman Coverage Results" MODIFIED="1576042037853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_12-IntegertoRoman" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestSubstringWithoutRepeatingCharacters.coverage" NAME="LongestSubstringWithoutRepeatingCharacters Coverage Results" MODIFIED="1575257272142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$SearchinRotatedSortedArray.coverage" NAME="SearchinRotatedSortedArray Coverage Results" MODIFIED="1577963489805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_33-SearchinRotatedSortedArray" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$TreeSumClosest.coverage" NAME="TreeSumClosest Coverage Results" MODIFIED="1576425509422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/__16-TreeSumClosest" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$MergeTwoSortedLists.coverage" NAME="MergeTwoSortedLists Coverage Results" MODIFIED="1576820232118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_21-MergeTwoSortedLists" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$TwoSum1.coverage" NAME="TwoSum1 Coverage Results" MODIFIED="1575198575843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_1-TwoSum" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$ContainerWithMostWater.coverage" NAME="ContainerWithMostWater Coverage Results" MODIFIED="1575948007987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_11-ContainerWithMostWater" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$ValidSudoku3.coverage" NAME="ValidSudoku3 Coverage Results" MODIFIED="1578212180473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_36-ValidSudoku" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$run.coverage" NAME="run Coverage Results" MODIFIED="1575198679489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_1-TwoSum" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$MergekSortedLists.coverage" NAME="MergekSortedLists Coverage Results" MODIFIED="1577025839515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_23-MergekSortedLists" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ReverseNodesink_Group.coverage" NAME="ReverseNodesink-Group Coverage Results" MODIFIED="1577154263223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_25-ReverseNodesink-Group" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestPalindromicSubstring2.coverage" NAME="LongestPalindromicSubstring2 Coverage Results" MODIFIED="1575472092926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5-LongestPalindromicSubstring" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$FindFirstandLastPositionofElementinSortedArray.coverage" NAME="FindFirstandLastPositionofElementinSortedArray Coverage Results" MODIFIED="1578017737804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$FourSum3.coverage" NAME="FourSum3 Coverage Results" MODIFIED="1576554475022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_18-FourSum" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$DivideTwoIntegers.coverage" NAME="DivideTwoIntegers Coverage Results" MODIFIED="1577609075258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_29-DivideTwoIntegers" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$TreeSum.coverage" NAME="TreeSum Coverage Results" MODIFIED="1576344943554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_15-TreeSum" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$FourSum.coverage" NAME="FourSum Coverage Results" MODIFIED="1576552186036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_18-FourSum" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber3.coverage" NAME="PalindromeNumber3 Coverage Results" MODIFIED="1575779704451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveElement.coverage" NAME="RemoveElement Coverage Results" MODIFIED="1577334792158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_27-RemoveElement" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$FindFirstandLastPositionofElementinSortedArray2.coverage" NAME="FindFirstandLastPositionofElementinSortedArray2 Coverage Results" MODIFIED="1578152994381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$RomantoInteger.coverage" NAME="RomantoInteger Coverage Results" MODIFIED="1576136926191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_13-RomantoInteger" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestCommonPrefix2.coverage" NAME="LongestCommonPrefix2 Coverage Results" MODIFIED="1576215005127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_14-LongestCommonPrefix" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1575206784889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2-AddTwoNumbers" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$ReverseInteger.coverage" NAME="ReverseInteger Coverage Results" MODIFIED="1575649542967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7-ReverseInteger" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$TreeSum2.coverage" NAME="TreeSum2 Coverage Results" MODIFIED="1576421286751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_15-TreeSum" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveDuplicatesfromSortedArray.coverage" NAME="RemoveDuplicatesfromSortedArray Coverage Results" MODIFIED="1577279082141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_26-RemoveDuplicatesfromSortedArray" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestPalindromicSubstring.coverage" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1575447349308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5-LongestPalindromicSubstring" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$ContainerWithMostWater2.coverage" NAME="ContainerWithMostWater2 Coverage Results" MODIFIED="1575948707685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_11-ContainerWithMostWater" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$StringtoInteger__atoi_.coverage" NAME="StringtoInteger (atoi) Coverage Results" MODIFIED="1575739788747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_8-StringtoInteger (atoi)" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$FourSum2.coverage" NAME="FourSum2 Coverage Results" MODIFIED="1576554178389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_18-FourSum" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$ValidParentheses.coverage" NAME="ValidParentheses Coverage Results" MODIFIED="1576725931450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_20-ValidParentheses" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$GenerateParentheses2.coverage" NAME="GenerateParentheses2 Coverage Results" MODIFIED="1576907435013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_22-GenerateParentheses" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$LongestSubstringWithoutRepeatingCharacters.coverage" NAME="LongestSubstringWithoutRepeatingCharacters Coverage Results" MODIFIED="1575257272142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$SearchinRotatedSortedArray.coverage" NAME="SearchinRotatedSortedArray Coverage Results" MODIFIED="1577963489805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_33-SearchinRotatedSortedArray" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$MergeTwoSortedLists.coverage" NAME="MergeTwoSortedLists Coverage Results" MODIFIED="1576820232118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_21-MergeTwoSortedLists" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$TwoSum1.coverage" NAME="TwoSum1 Coverage Results" MODIFIED="1575198575843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_1-TwoSum" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$ContainerWithMostWater.coverage" NAME="ContainerWithMostWater Coverage Results" MODIFIED="1575948007987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_11-ContainerWithMostWater" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$FourSum3.coverage" NAME="FourSum3 Coverage Results" MODIFIED="1576554475022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_18-FourSum" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveNthNodeFromEndofList.coverage" NAME="RemoveNthNodeFromEndofList Coverage Results" MODIFIED="1576652555687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_19-RemoveNthNodeFromEndofList" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="437">
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py">
+        <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="45" column="43" lean-forward="true" selection-end-line="78" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py">
+        <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="42" column="20" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="366">
+              <caret line="51" column="3" selection-end-line="51" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py">
+        <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="36" selection-start-line="27" selection-end-line="62" />
+            <state relative-caret-position="100">
+              <caret line="55" selection-start-line="55" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/__init__.py">
+        <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="364">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py">
+        <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/题解2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="65" selection-start-line="42" selection-start-column="7" selection-end-line="52" selection-end-column="65" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -179,10 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_13-RomantoInteger/RomantoInteger1.py" />
-        <option value="$PROJECT_DIR$/_13-RomantoInteger/RomantoInteger2.py" />
-        <option value="$PROJECT_DIR$/_13-RomantoInteger/RomantoInteger3.py" />
-        <option value="$PROJECT_DIR$/_14-LongestCommonPrefix/LongestCommonPrefix.py" />
         <option value="$PROJECT_DIR$/_14-LongestCommonPrefix/LongestCommonPrefix1.py" />
         <option value="$PROJECT_DIR$/_14-LongestCommonPrefix/LongestCommonPrefix2.py" />
         <option value="$PROJECT_DIR$/_15-3Sum/TreeSum.py" />
@@ -226,10 +227,14 @@
         <option value="$PROJECT_DIR$/_32-LongestValidParentheses/__init__.py" />
         <option value="$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py" />
         <option value="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py" />
+        <option value="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray2.py" />
         <option value="$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py" />
         <option value="$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py" />
+        <option value="$PROJECT_DIR$/_35-SearchInsertPosition/__init__.py" />
+        <option value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py" />
+        <option value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py" />
+        <option value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py" />
         <option value="$PROJECT_DIR$/Solution.txt" />
-        <option value="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray2.py" />
       </list>
     </option>
   </component>
@@ -244,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,13 +334,17 @@
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_36-ValidSudoku" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FindFirstandLastPositionofElementinSortedArray2">
+  <component name="RunManager" selected="Python.ValidSudoku3">
     <configuration name="FindFirstandLastPositionofElementinSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,50 +419,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LongestValidParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetcodeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_32-LongestValidParentheses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestValidParentheses2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetcodeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_32-LongestValidParentheses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="SearchinRotatedSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -475,13 +441,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ValidSudoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetcodeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_36-ValidSudoku" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidSudoku3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetcodeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_36-ValidSudoku" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ValidSudoku3" />
+        <item itemvalue="Python.ValidSudoku" />
         <item itemvalue="Python.FindFirstandLastPositionofElementinSortedArray2" />
         <item itemvalue="Python.FindFirstandLastPositionofElementinSortedArray" />
         <item itemvalue="Python.SearchinRotatedSortedArray" />
-        <item itemvalue="Python.LongestValidParentheses" />
-        <item itemvalue="Python.LongestValidParentheses2" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +546,8 @@
       <workItem from="1577891944698" duration="5910000" />
       <workItem from="1577960998833" duration="2986000" />
       <workItem from="1578016517102" duration="1825000" />
-      <workItem from="1578149062743" duration="4309000" />
+      <workItem from="1578149062743" duration="4419000" />
+      <workItem from="1578207364105" duration="4771000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -720,22 +731,36 @@
       <option name="project" value="LOCAL" />
       <updated>1578151883997</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="新增第34题">
+      <created>1578153487036</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1578153487036</updated>
+    </task>
+    <task id="LOCAL-00028" summary="新增第35题">
+      <created>1578153543524</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578153543524</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161382000" />
+    <option name="totallyTimeSpent" value="166263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2167382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.21959943" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.19098713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.24581006" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.24581006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -769,44 +794,21 @@
     <MESSAGE value="新增第32题" />
     <MESSAGE value="新增第33题" />
     <MESSAGE value="新增第34题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增第34题" />
+    <MESSAGE value="新增第35题" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增第35题" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_15-TreeSum/TreeSum2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_17-LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_22-GenerateParentheses/GenerateParentheses2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_1-TwoSum/TwoSum2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -988,13 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/run.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1043,6 +1038,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="43" selection-end-line="78" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -1071,38 +1094,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition.py">
+    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/SearchInsertPosition2.py">
+    <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="36" selection-start-line="27" selection-end-line="62" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="51" column="3" selection-end-line="51" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/题解2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="55" selection-start-line="55" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="45" column="43" lean-forward="true" selection-end-line="78" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="437">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
         </state>
       </provider>
     </entry>
