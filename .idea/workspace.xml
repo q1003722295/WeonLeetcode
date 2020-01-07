@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/图一.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/题解2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_36-ValidSudoku/题解3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_37-SudokuSolver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_37-SudokuSolver/题目.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_38-CountandSay/CountandSay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_38-CountandSay/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
     </list>
@@ -26,8 +24,9 @@
     <SUITE FILE_PATH="coverage/LeetcodeTest$GenerateParentheses.coverage" NAME="GenerateParentheses Coverage Results" MODIFIED="1576907318027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_22-GenerateParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ImplementstrStr__2.coverage" NAME="ImplementstrStr()2 Coverage Results" MODIFIED="1577440990369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_28-ImplementstrStr()" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber1.coverage" NAME="PalindromeNumber1 Coverage Results" MODIFIED="1575779714923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$SudokuSolver.coverage" NAME="SudokuSolver Coverage Results" MODIFIED="1578365509114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_37-SudokuSolver" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ImplementstrStr__.coverage" NAME="ImplementstrStr() Coverage Results" MODIFIED="1577428180158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_28-ImplementstrStr()" />
-    <SUITE FILE_PATH="coverage/LeetcodeTest$ValidSudoku.coverage" NAME="ValidSudoku Coverage Results" MODIFIED="1578210048984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_36-ValidSudoku" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$ValidSudoku.coverage" NAME="ValidSudoku Coverage Results" MODIFIED="1578310507386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_36-ValidSudoku" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$SwapNodesinPairs.coverage" NAME="SwapNodesinPairs Coverage Results" MODIFIED="1577079060210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_24-SwapNodesinPairs" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestValidParentheses.coverage" NAME="LongestValidParentheses Coverage Results" MODIFIED="1577898256470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_32-LongestValidParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ZigZagConversion2.coverage" NAME="ZigZagConversion2 Coverage Results" MODIFIED="1575646634035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_6-ZigZagConversion" />
@@ -63,6 +62,7 @@
     <SUITE FILE_PATH="coverage/LeetcodeTest$GenerateParentheses2.coverage" NAME="GenerateParentheses2 Coverage Results" MODIFIED="1576907435013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_22-GenerateParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestSubstringWithoutRepeatingCharacters.coverage" NAME="LongestSubstringWithoutRepeatingCharacters Coverage Results" MODIFIED="1575257272142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$SearchinRotatedSortedArray.coverage" NAME="SearchinRotatedSortedArray Coverage Results" MODIFIED="1577963489805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_33-SearchinRotatedSortedArray" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$CountandSay.coverage" NAME="CountandSay Coverage Results" MODIFIED="1578369602755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_38-CountandSay" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$MergeTwoSortedLists.coverage" NAME="MergeTwoSortedLists Coverage Results" MODIFIED="1576820232118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_21-MergeTwoSortedLists" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$TwoSum1.coverage" NAME="TwoSum1 Coverage Results" MODIFIED="1575198575843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_1-TwoSum" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ContainerWithMostWater.coverage" NAME="ContainerWithMostWater Coverage Results" MODIFIED="1575948007987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_11-ContainerWithMostWater" />
@@ -71,20 +71,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="630">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/__init__.py">
+        <entry file="file://$PROJECT_DIR$/_38-CountandSay/CountandSay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="229">
+              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-899" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -92,17 +108,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="51" column="3" selection-end-line="51" selection-end-column="3" />
+            <state relative-caret-position="424">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_37-SudokuSolver/题目.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="55" selection-start-line="55" selection-end-line="56" />
+            <state relative-caret-position="264">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -110,31 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/题解2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_32-LongestValidParentheses/LongestValidParentheses3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="-56">
+              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -184,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_14-LongestCommonPrefix/LongestCommonPrefix1.py" />
-        <option value="$PROJECT_DIR$/_14-LongestCommonPrefix/LongestCommonPrefix2.py" />
-        <option value="$PROJECT_DIR$/_15-3Sum/TreeSum.py" />
         <option value="$PROJECT_DIR$/_15-TreeSum/TreeSum.py" />
         <option value="$PROJECT_DIR$/_15-TreeSum/TreeSum1.py" />
         <option value="$PROJECT_DIR$/_15-TreeSum/TreeSum2.py" />
@@ -234,14 +229,18 @@
         <option value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py" />
         <option value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py" />
         <option value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py" />
+        <option value="$PROJECT_DIR$/_36-ValidSudoku/__init__.py" />
+        <option value="$PROJECT_DIR$/_38-CountandSay/CountandSay.py" />
         <option value="$PROJECT_DIR$/Solution.txt" />
+        <option value="$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="808" />
+    <option name="width" value="1680" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -276,6 +275,11 @@
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="_8-StringtoInteger (atoi)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_10-RegularExpressionMatching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
@@ -339,6 +343,16 @@
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_37-SudokuSolver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_38-CountandSay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -374,8 +388,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ValidSudoku3">
-    <configuration name="FindFirstandLastPositionofElementinSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CountandSay">
+    <configuration name="CountandSay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -383,12 +397,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_38-CountandSay" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_34-FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_38-CountandSay/CountandSay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,7 +433,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchinRotatedSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SudokuSolver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,12 +441,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_33-SearchinRotatedSortedArray" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_37-SudokuSolver" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_33-SearchinRotatedSortedArray/SearchinRotatedSortedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -487,11 +501,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ValidSudoku3" />
+        <item itemvalue="Python.CountandSay" />
+        <item itemvalue="Python.SudokuSolver" />
         <item itemvalue="Python.ValidSudoku" />
+        <item itemvalue="Python.ValidSudoku3" />
         <item itemvalue="Python.FindFirstandLastPositionofElementinSortedArray2" />
-        <item itemvalue="Python.FindFirstandLastPositionofElementinSortedArray" />
-        <item itemvalue="Python.SearchinRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -547,7 +561,8 @@
       <workItem from="1577960998833" duration="2986000" />
       <workItem from="1578016517102" duration="1825000" />
       <workItem from="1578149062743" duration="4419000" />
-      <workItem from="1578207364105" duration="4771000" />
+      <workItem from="1578207364105" duration="5075000" />
+      <workItem from="1578303722341" duration="12533000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -745,23 +760,37 @@
       <option name="project" value="LOCAL" />
       <updated>1578153543524</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="新增第35题">
+      <created>1578213431727</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1578213431727</updated>
+    </task>
+    <task id="LOCAL-00030" summary="新增第36题">
+      <created>1578213559717</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1578213559717</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166263000" />
+    <option name="totallyTimeSpent" value="179100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <frame x="1440" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.21959943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.1898657" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.19098713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.24581006" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3980447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.1882353" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39786097" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -795,7 +824,8 @@
     <MESSAGE value="新增第33题" />
     <MESSAGE value="新增第34题" />
     <MESSAGE value="新增第35题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增第35题" />
+    <MESSAGE value="新增第36题" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增第36题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,45 +835,15 @@
           <line>102</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_1-TwoSum/TwoSum2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_2-AddTwoNumbers/AddTwoNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_23-MergekSortedLists/MergekSortedLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="20" selection-start-line="96" selection-end-line="104" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_24-SwapNodesinPairs/SwapNodesinPairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" selection-start-line="58" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_18-FourSum/FourSum3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="18" selection-start-line="87" selection-start-column="4" selection-end-line="92" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_23-MergekSortedLists/MergekSortedLists2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1080,6 +1080,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/题解2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1691554869/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44280">
@@ -1094,48 +1118,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_35-SearchInsertPosition/__init__.py">
+    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        <state relative-caret-position="-56">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="51" column="3" selection-end-line="51" selection-end-column="3" />
+        <state relative-caret-position="424">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/题解2.png">
+    <entry file="file://$PROJECT_DIR$/_37-SudokuSolver/题目.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="55" selection-start-line="55" selection-end-line="56" />
+        <state relative-caret-position="264">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py">
+    <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="-899" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_38-CountandSay/CountandSay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="630">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
