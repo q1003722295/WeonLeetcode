@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_39-CombinationSum/CombinationSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_39-CombinationSum/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_40-CombinationSumII/CombinationSumII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_40-CombinationSumII/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_39-CombinationSum/CombinationSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/_39-CombinationSum/CombinationSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestValidParentheses2.coverage" NAME="LongestValidParentheses2 Coverage Results" MODIFIED="1577898251666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_32-LongestValidParentheses" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1575258820216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3-LongestSubstringWithoutRepeatingCharacters" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$CombinationSumII.coverage" NAME="CombinationSumII Coverage Results" MODIFIED="1578555662640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_40-CombinationSumII" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestCommonPrefix.coverage" NAME="LongestCommonPrefix Coverage Results" MODIFIED="1576213808873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_14-LongestCommonPrefix" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ReverseInteger2.coverage" NAME="ReverseInteger2 Coverage Results" MODIFIED="1575649610091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7-ReverseInteger" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$GenerateParentheses.coverage" NAME="GenerateParentheses Coverage Results" MODIFIED="1576907318027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_22-GenerateParentheses" />
@@ -73,7 +75,16 @@
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_40-CombinationSumII/CombinationSumII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -88,17 +99,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_39-CombinationSum/CombinationSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="60">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#420#2" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_15-TreeSum/TreeSum1.py" />
         <option value="$PROJECT_DIR$/_15-TreeSum/TreeSum2.py" />
         <option value="$PROJECT_DIR$/__16-TreeSumClosest/TreeSumClosest.py" />
         <option value="$PROJECT_DIR$/_17-LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.py" />
@@ -230,6 +234,7 @@
         <option value="$PROJECT_DIR$/_38-CountandSay/CountandSay.py" />
         <option value="$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py" />
         <option value="$PROJECT_DIR$/_39-CombinationSum/CombinationSum.py" />
+        <option value="$PROJECT_DIR$/_40-CombinationSumII/CombinationSumII.py" />
         <option value="$PROJECT_DIR$/Solution.txt" />
       </list>
     </option>
@@ -360,6 +365,11 @@
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="_40-CombinationSumII" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -395,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CombinationSum">
+  <component name="RunManager" selected="Python.CombinationSumII">
     <configuration name="CombinationSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -410,6 +420,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_39-CombinationSum/CombinationSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CombinationSumII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetcodeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_40-CombinationSumII" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_40-CombinationSumII/CombinationSumII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,35 +516,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ValidSudoku3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetcodeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_36-ValidSudoku" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CombinationSumII" />
         <item itemvalue="Python.CombinationSum" />
         <item itemvalue="Python.CountandSay" />
         <item itemvalue="Python.SudokuSolver" />
         <item itemvalue="Python.ValidSudoku" />
-        <item itemvalue="Python.ValidSudoku3" />
       </list>
     </recent_temporary>
   </component>
@@ -570,7 +580,7 @@
       <workItem from="1578149062743" duration="4419000" />
       <workItem from="1578207364105" duration="5075000" />
       <workItem from="1578303722341" duration="12798000" />
-      <workItem from="1578540975524" duration="6112000" />
+      <workItem from="1578540975524" duration="8287000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -796,11 +806,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578370147039</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="新增第39题">
+      <created>1578553813559</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1578553813559</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185477000" />
+    <option name="totallyTimeSpent" value="187652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
@@ -809,6 +826,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.19241774" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.19098713" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.1875" />
@@ -849,7 +867,8 @@
     <MESSAGE value="新增第36题" />
     <MESSAGE value="新增第37-38题" />
     <MESSAGE value="更新Solution.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新Solution.txt" />
+    <MESSAGE value="新增第39题" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增第39题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,7 +887,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/n.pub" />
     <entry file="file://$PROJECT_DIR$/_25-ReverseNodesink-Group/ReverseNodesink-Group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1182,15 +1200,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_39-CombinationSum/CombinationSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#420#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_40-CombinationSumII/CombinationSumII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
         </state>
       </provider>
     </entry>
