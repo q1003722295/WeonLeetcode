@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd439144-b769-47e8-9345-8a5aadb4d84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_43-MultiplyStrings/MultiplyStrings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_43-MultiplyStrings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_44-WildcardMatching/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_45-JumpGameII/JumpGameII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_45-JumpGameII/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py" beforeDir="false" afterPath="$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +31,7 @@
     <SUITE FILE_PATH="coverage/LeetcodeTest$ValidSudoku.coverage" NAME="ValidSudoku Coverage Results" MODIFIED="1578310507386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_36-ValidSudoku" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$SwapNodesinPairs.coverage" NAME="SwapNodesinPairs Coverage Results" MODIFIED="1577079060210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_24-SwapNodesinPairs" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$LongestValidParentheses.coverage" NAME="LongestValidParentheses Coverage Results" MODIFIED="1577898256470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_32-LongestValidParentheses" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$RegularExpressionMatching3.coverage" NAME="RegularExpressionMatching3 Coverage Results" MODIFIED="1579004373563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_10-RegularExpressionMatching" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ZigZagConversion2.coverage" NAME="ZigZagConversion2 Coverage Results" MODIFIED="1575646634035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_6-ZigZagConversion" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$FirstMissingPositive2.coverage" NAME="FirstMissingPositive2 Coverage Results" MODIFIED="1578671554940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_41-FirstMissingPositive" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$PalindromeNumber2.coverage" NAME="PalindromeNumber2 Coverage Results" MODIFIED="1575779709712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_9-PalindromeNumber" />
@@ -69,62 +74,66 @@
     <SUITE FILE_PATH="coverage/LeetcodeTest$MergeTwoSortedLists.coverage" NAME="MergeTwoSortedLists Coverage Results" MODIFIED="1576820232118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_21-MergeTwoSortedLists" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$TwoSum1.coverage" NAME="TwoSum1 Coverage Results" MODIFIED="1575198575843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_1-TwoSum" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$ContainerWithMostWater.coverage" NAME="ContainerWithMostWater Coverage Results" MODIFIED="1575948007987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_11-ContainerWithMostWater" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$WildcardMatching2.coverage" NAME="WildcardMatching2 Coverage Results" MODIFIED="1579003358317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_44-WildcardMatching" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$FourSum3.coverage" NAME="FourSum3 Coverage Results" MODIFIED="1576554475022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_18-FourSum" />
+    <SUITE FILE_PATH="coverage/LeetcodeTest$WildcardMatching.coverage" NAME="WildcardMatching Coverage Results" MODIFIED="1579004056302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_44-WildcardMatching" />
     <SUITE FILE_PATH="coverage/LeetcodeTest$RemoveNthNodeFromEndofList.coverage" NAME="RemoveNthNodeFromEndofList Coverage Results" MODIFIED="1576652555687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_19-RemoveNthNodeFromEndofList" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solution.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+            <state relative-caret-position="481">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_43-MultiplyStrings/MultiplyStrings.py">
+        <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="480">
+              <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_45-JumpGameII/JumpGameII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_11-ContainerWithMostWater/题目.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/_45-JumpGameII/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_41-FirstMissingPositive/FirstMissingPositive2.py">
+        <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+            <state relative-caret-position="-687" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_42-TrappingRainWater/TrappingRainWater.py">
+        <entry file="file://$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_37-SudokuSolver/题目.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_36-ValidSudoku/ValidSudoku2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+            <state relative-caret-position="401">
+              <caret line="90" column="25" lean-forward="true" selection-start-line="64" selection-end-line="90" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -162,6 +171,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -183,12 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_18-FourSum/FourSum3.py" />
-        <option value="$PROJECT_DIR$/_19-RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.py" />
-        <option value="$PROJECT_DIR$/_20-ValidParentheses/ValidParentheses.py" />
-        <option value="$PROJECT_DIR$/_21-MergeTwoSortedLists/MergeTwoSortedLists.py" />
-        <option value="$PROJECT_DIR$/_22-GenerateParentheses/GenerateParentheses.py" />
-        <option value="$PROJECT_DIR$/_22-GenerateParentheses/GenerateParentheses2.py" />
         <option value="$PROJECT_DIR$/_23-MergekSortedLists/MergekSortedLists.py" />
         <option value="$PROJECT_DIR$/_23-MergekSortedLists/MergekSortedLists2.py" />
         <option value="$PROJECT_DIR$/_24-SwapNodesinPairs.py" />
@@ -233,7 +237,13 @@
         <option value="$PROJECT_DIR$/_41-FirstMissingPositive/FirstMissingPositive2.py" />
         <option value="$PROJECT_DIR$/_42-TrappingRainWater/TrappingRainWater.py" />
         <option value="$PROJECT_DIR$/_43-MultiplyStrings/MultiplyStrings.py" />
+        <option value="$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching.py" />
+        <option value="$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching2.py" />
+        <option value="$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching1.py" />
         <option value="$PROJECT_DIR$/Solution.txt" />
+        <option value="$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py" />
+        <option value="$PROJECT_DIR$/_45-JumpGameII/JumpGame II.py" />
+        <option value="$PROJECT_DIR$/_45-JumpGameII/JumpGameII.py" />
       </list>
     </option>
   </component>
@@ -248,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,132 +268,17 @@
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_3-LongestSubstringWithoutRepeatingCharacters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_4-MedianOfTwoSortedArrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_5-LongestPalindromicSubstring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_8-StringtoInteger (atoi)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
               <item name="_10-RegularExpressionMatching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_11-ContainerWithMostWater" type="462c0819:PsiDirectoryNode" />
+              <item name="_44-WildcardMatching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_15-TreeSum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_20-ValidParentheses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_26-RemoveDuplicatesfromSortedArray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_27-RemoveElement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_28-ImplementstrStr()" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_29-DivideTwoIntegers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_30-SubstringwithConcatenationofAllWords" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_31-NextPermutation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_32-LongestValidParentheses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_33-SearchinRotatedSortedArray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_34-FindFirstandLastPositionofElementinSortedArray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_35-SearchInsertPosition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_36-ValidSudoku" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_37-SudokuSolver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_38-CountandSay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_39-CombinationSum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_40-CombinationSumII" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_41-FirstMissingPositive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_42-TrappingRainWater" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetcodeTest" type="462c0819:PsiDirectoryNode" />
-              <item name="_43-MultiplyStrings" type="462c0819:PsiDirectoryNode" />
+              <item name="_45-JumpGameII" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetcodeTest" type="b2602c69:ProjectViewProjectNode" />
@@ -394,6 +288,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,73 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MultiplyStrings">
-    <configuration name="CombinationSumII" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetcodeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_40-CombinationSumII" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_40-CombinationSumII/CombinationSumII.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FirstMissingPositive" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetcodeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_41-FirstMissingPositive" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_41-FirstMissingPositive/FirstMissingPositive1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FirstMissingPositive2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetcodeTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_41-FirstMissingPositive" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_41-FirstMissingPositive/FirstMissingPositive2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.RegularExpressionMatching3">
     <configuration name="MultiplyStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetcodeTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -504,6 +333,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_43-MultiplyStrings/MultiplyStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RegularExpressionMatching3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetcodeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_10-RegularExpressionMatching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -534,13 +385,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="WildcardMatching" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetcodeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_44-WildcardMatching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WildcardMatching2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetcodeTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_44-WildcardMatching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RegularExpressionMatching3" />
+        <item itemvalue="Python.WildcardMatching" />
+        <item itemvalue="Python.WildcardMatching2" />
         <item itemvalue="Python.MultiplyStrings" />
         <item itemvalue="Python.TrappingRainWater" />
-        <item itemvalue="Python.FirstMissingPositive2" />
-        <item itemvalue="Python.FirstMissingPositive" />
-        <item itemvalue="Python.CombinationSumII" />
       </list>
     </recent_temporary>
   </component>
@@ -601,7 +496,8 @@
       <workItem from="1578540975524" duration="8307000" />
       <workItem from="1578663475241" duration="3903000" />
       <workItem from="1578729487820" duration="4823000" />
-      <workItem from="1578840519055" duration="2110000" />
+      <workItem from="1578840519055" duration="2142000" />
+      <workItem from="1578998613712" duration="5700000" />
     </task>
     <task id="LOCAL-00001" summary="update Solution.txt">
       <created>1577157540823</created>
@@ -869,23 +765,31 @@
       <option name="project" value="LOCAL" />
       <updated>1578737855217</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="新增第43题">
+      <created>1578842909376</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1578842909377</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198508000" />
+    <option name="totallyTimeSpent" value="204240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.20100144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.19098713" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.18497914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39722222" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.18435754" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39664805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -927,7 +831,8 @@
     <MESSAGE value="新增第40题" />
     <MESSAGE value="新增第41题" />
     <MESSAGE value="新增第42题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增第42题" />
+    <MESSAGE value="新增第43题" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增第43题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,45 +851,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_21-MergeTwoSortedLists/MergeTwoSortedLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_8-StringtoInteger (atoi)/StringtoInteger (atoi)1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_28-ImplementstrStr()/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_29-DivideTwoIntegers/DivideTwoIntegers1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_29-DivideTwoIntegers/Divide3解题.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_19-RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -1155,9 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_37-SudokuSolver/SudokuSolver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1205,6 +1068,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_11-ContainerWithMostWater/ContainerWithMostWater2.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_43-MultiplyStrings/MultiplyStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_11-ContainerWithMostWater/题目.png">
       <provider selected="true" editor-type-id="images" />
@@ -1254,17 +1124,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_43-MultiplyStrings/MultiplyStrings.py">
+    <entry file="file://$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="401">
+          <caret line="90" column="25" lean-forward="true" selection-start-line="64" selection-end-line="90" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_44-WildcardMatching/WildcardMatching1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        <state relative-caret-position="481">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_45-JumpGameII/JumpGame II.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_10-RegularExpressionMatching/RegularExpressionMatching3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_45-JumpGameII/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_45-JumpGameII/JumpGameII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>

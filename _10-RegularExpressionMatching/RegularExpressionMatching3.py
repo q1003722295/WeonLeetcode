@@ -100,9 +100,8 @@ class Solution(object):
 
 
 
-
-
-
+s = Solution()
+print(s.isMatch('aa', '*'))
 
 
 
